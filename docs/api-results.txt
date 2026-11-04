@@ -1,0 +1,1 @@
+PASS real HTTP/D1 (also same-company double-spend race): hidden mode blocked, atomic two-buyer race, idempotent duplicate trade, seller gain, bank authorization, private loans, balanced reports and end lock. Room 8F65C1BA

@@ -1,0 +1,365 @@
+PASS all 300 projects awarded solo and jointly, legacy open-project compatibility, insufficient capability and crew rejection
+✔ tests/all-bid-modes.mjs (338.581958ms)
+{"size":4,"mixed":false,"run":0,"done":18,"unsold":19,"zero":0,"profitable":4,"good":4,"goodProfitable":4,"avgProfit":19.7,"health":[60.21,61.04,52.71,52.71],"revenue":[482.51,306.49,399,398]}
+{"size":4,"mixed":false,"run":1,"done":12,"unsold":27,"zero":0,"profitable":4,"good":4,"goodProfitable":4,"avgProfit":18.1,"health":[56.46,41.67,37.92,44.38],"revenue":[165,284,308,192]}
+{"size":4,"mixed":false,"run":2,"done":27,"unsold":13,"zero":0,"profitable":4,"good":4,"goodProfitable":4,"avgProfit":44.332499999999996,"health":[75.94,56.46,61.04,64.79],"revenue":[526.47,859.52,790.03,417.98]}
+{"size":4,"mixed":true,"run":0,"done":18,"unsold":19,"zero":0,"profitable":0,"good":0,"goodProfitable":0,"avgProfit":-40.4275,"health":[35.83,37.71,38.13,33.75],"revenue":[199,516,494,204]}
+{"size":4,"mixed":true,"run":1,"done":19,"unsold":19,"zero":0,"profitable":0,"good":0,"goodProfitable":0,"avgProfit":-36.7025,"health":[30.21,33.75,44.58,40],"revenue":[396,57,652,230]}
+{"size":4,"mixed":true,"run":2,"done":23,"unsold":15,"zero":0,"profitable":0,"good":0,"goodProfitable":0,"avgProfit":-37.707499999999996,"health":[38.65,40.21,38.75,29.38],"revenue":[586,617,316,303]}
+{"size":8,"mixed":false,"run":0,"done":17,"unsold":19,"zero":1,"profitable":6,"good":8,"goodProfitable":6,"avgProfit":11.42125,"health":[56.46,48.13,43.54,39.79,39.79,37.92,36.04,34.17],"revenue":[225.49,111,427.51,171,197,51,0,102]}
+{"size":8,"mixed":false,"run":1,"done":29,"unsold":9,"zero":0,"profitable":8,"good":8,"goodProfitable":8,"avgProfit":19.14125,"health":[58.33,50,52.71,46.25,46.25,36.04,36.04,46.25],"revenue":[243,442,194,180,223.49,500,406,314.51]}
+{"size":8,"mixed":false,"run":2,"done":26,"unsold":13,"zero":2,"profitable":6,"good":8,"goodProfitable":6,"avgProfit":12.747499999999999,"health":[56.46,61.04,46.25,46.25,37.92,37.92,36.04,37.92],"revenue":[363,33.51,0,706,571.49,33.49,0,297.51]}
+{"size":8,"mixed":true,"run":0,"done":27,"unsold":13,"zero":0,"profitable":3,"good":3,"goodProfitable":3,"avgProfit":-13.429999999999998,"health":[71.25,48.13,40.63,30.21,48.33,32.08,35,37.5],"revenue":[188,287,135,32,67,388.98,256,785.02]}
+{"size":8,"mixed":true,"run":1,"done":21,"unsold":20,"zero":1,"profitable":2,"good":3,"goodProfitable":2,"avgProfit":-23.528750000000002,"health":[56.46,37.92,48.13,32.08,28.33,38.33,40.94,35],"revenue":[209,65,41,168,0,603,137,360]}
+{"size":8,"mixed":true,"run":2,"done":23,"unsold":13,"zero":1,"profitable":3,"good":3,"goodProfitable":3,"avgProfit":-13.692499999999997,"health":[56.46,54.58,36.04,32.08,28.33,43.96,36.25,40],"revenue":[0,147,414,73.49,44,318.51,469,152]}
+{"size":12,"mixed":false,"run":0,"done":26,"unsold":15,"zero":4,"profitable":7,"good":12,"goodProfitable":7,"avgProfit":7.131666666666668,"health":[54.58,50,46.25,36.04,36.04,34.17,34.17,36.04,36.04,37.92,39.79,36.04],"revenue":[35.51,0,249,239,0,500,81,139,193,0,340.49,0]}
+{"size":12,"mixed":false,"run":1,"done":22,"unsold":13,"zero":3,"profitable":8,"good":12,"goodProfitable":8,"avgProfit":9.915,"health":[48.13,41.67,41.67,43.54,41.67,36.04,39.79,46.25,36.04,37.92,36.04,34.17],"revenue":[0,58,0,306,110,0,165.49,206,148.51,248,330,225]}
+{"size":12,"mixed":false,"run":2,"done":27,"unsold":16,"zero":3,"profitable":8,"good":12,"goodProfitable":8,"avgProfit":9.047499999999998,"health":[54.58,50,48.13,41.67,50,44.38,48.13,37.92,36.04,36.04,34.17,32.29],"revenue":[280,27.49,230,261.51,127,0,250.49,343,472.51,0,0,194]}
+{"size":12,"mixed":true,"run":0,"done":23,"unsold":15,"zero":4,"profitable":4,"good":4,"goodProfitable":4,"avgProfit":-23.349166666666672,"health":[64.79,46.25,36.04,39.79,35.83,28.33,44.9,39.58,40.63,31.87,35.63,36.25],"revenue":[54,266,0,0,0,58,215,550.03,270,408.48,115.49,0]}
+{"size":12,"mixed":true,"run":1,"done":29,"unsold":14,"zero":5,"profitable":5,"good":4,"goodProfitable":4,"avgProfit":-16.06,"health":[50,52.71,53.65,52.71,32.08,32.08,42.71,38.13,38.13,38.33,35.63,36.25],"revenue":[0,0,159,0,68.5,757.5,480,542,246,213,0,0]}
+{"size":12,"mixed":true,"run":2,"done":25,"unsold":14,"zero":5,"profitable":3,"good":4,"goodProfitable":3,"avgProfit":-25.304999999999996,"health":[69.38,48.13,46.25,41.67,30.21,34.9,39.58,40,44.38,37.71,30,33.75],"revenue":[0,528,0,0,0,685.98,143.01,74,112.01,157,192,0]}
+✔ tests/balance-matrix.mjs (33873.66175ms)
+SIM 0 finished 1080 projects 36 {"done":21,"unsold":15}
+┌─────────┬───────┬─────────┬────────┬────────┬───────────┬────────────┬────────┬──────────┐
+│ (index) │ skill │ revenue │ profit │ cash   │ completed │ management │ growth │ upgrades │
+├─────────┼───────┼─────────┼────────┼────────┼───────────┼────────────┼────────┼──────────┤
+│ 0       │ 0     │ 0       │ -25.85 │ 134.15 │ 0         │ 6.84       │ 36.56  │ 3        │
+│ 1       │ 2     │ 123.49  │ -46.61 │ 110.05 │ 2         │ 26.46      │ 38.13  │ 4        │
+│ 2       │ 3     │ 379     │ -78.52 │ 81.48  │ 5         │ 25.48      │ 37.5   │ 3        │
+│ 3       │ 4     │ 0       │ -46.6  │ 113.4  │ 0         │ 27.72      │ 45.83  │ 4        │
+│ 4       │ 5     │ 0       │ -9.81  │ 150.19 │ 0         │ 16.02      │ 28.33  │ 0        │
+│ 5       │ 6     │ 0       │ -20.43 │ 139.57 │ 0         │ 26.46      │ 32.08  │ 0        │
+│ 6       │ 7     │ 267     │ 17.9   │ 177.9  │ 3         │ 5.76       │ 54.58  │ 2        │
+│ 7       │ 8     │ 100.5   │ -7.75  │ 152.25 │ 2         │ 26.46      │ 39.79  │ 0        │
+│ 8       │ 9     │ 48      │ 0.81   │ 160.81 │ 1         │ 14.58      │ 39.79  │ 0        │
+│ 9       │ 10    │ 435     │ 6.71   │ 166.71 │ 6         │ 15.3       │ 54.58  │ 2        │
+│ 10      │ 10    │ 0       │ 0.72   │ 160.72 │ 0         │ 5.76       │ 36.04  │ 0        │
+│ 11      │ 10    │ 337.01  │ 23.85  │ 183.85 │ 5         │ 6.3        │ 51.88  │ 1        │
+└─────────┴───────┴─────────┴────────┴────────┴───────────┴────────────┴────────┴──────────┘
+unsold [
+  {
+    req: { buildings: 2, digital: 1, coordination: 1 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { digital: 2, technology: 1 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, medical: 1, coordination: 1 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 4, coordination: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 4, coordination: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, coordination: 2 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { medical: 2, infrastructure: 1, coordination: 1 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { infrastructure: 3, industrial: 2, coordination: 2 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { medical: 4, talent: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, procurement: 1 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { medical: 3, quality: 2 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { industrial: 2, digital: 1, coordination: 1 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { infrastructure: 3, medical: 2, coordination: 2 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 3, procurement: 2 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { medical: 4, digital: 3, coordination: 3 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  }
+]
+SIM 1 finished 1080 projects 42 {"done":21,"unsold":21}
+┌─────────┬───────┬─────────┬────────┬────────┬───────────┬────────────┬────────┬──────────┐
+│ (index) │ skill │ revenue │ profit │ cash   │ completed │ management │ growth │ upgrades │
+├─────────┼───────┼─────────┼────────┼────────┼───────────┼────────────┼────────┼──────────┤
+│ 0       │ 0     │ 0       │ -35.94 │ 124.06 │ 0         │ 4.9        │ 37.5   │ 4        │
+│ 1       │ 2     │ 57      │ -66.66 │ 93.34  │ 1         │ 45         │ 42.81  │ 4        │
+│ 2       │ 3     │ 207     │ -46.74 │ 113.26 │ 2         │ 22.21      │ 33.75  │ 3        │
+│ 3       │ 4     │ 205.99  │ -46.19 │ 113.81 │ 2         │ 41.04      │ 47.4   │ 5        │
+│ 4       │ 5     │ 0       │ -24.3  │ 135.7  │ 0         │ 30.24      │ 32.08  │ 0        │
+│ 5       │ 6     │ 0       │ -21.73 │ 138.27 │ 0         │ 27.72      │ 30.21  │ 0        │
+│ 6       │ 7     │ 122     │ 10.26  │ 170.26 │ 1         │ 13.86      │ 36.04  │ 0        │
+│ 7       │ 8     │ 311     │ 11.08  │ 171.08 │ 4         │ 14.58      │ 46.25  │ 1        │
+│ 8       │ 9     │ 314     │ 20.46  │ 180.46 │ 4         │ 5.76       │ 46.25  │ 1        │
+│ 9       │ 10    │ 0       │ -9.07  │ 150.93 │ 0         │ 15.3       │ 39.79  │ 0        │
+│ 10      │ 10    │ 147.01  │ 12.52  │ 172.52 │ 2         │ 15.3       │ 36.04  │ 0        │
+│ 11      │ 10    │ 499     │ 15.7   │ 175.7  │ 6         │ 16.56      │ 66.67  │ 3        │
+└─────────┴───────┴─────────┴────────┴────────┴───────────┴────────────┴────────┴──────────┘
+unsold [
+  {
+    req: { buildings: 2, procurement: 1 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, digital: 1, coordination: 1 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { infrastructure: 2, compliance: 2 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { digital: 2, quality: 2 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, coordination: 2 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 4, coordination: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 4, coordination: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { digital: 3, infrastructure: 2, coordination: 2 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { infrastructure: 3, digital: 2, coordination: 2 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, procurement: 1 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, industrial: 1, coordination: 1 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { medical: 4, talent: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 4, coordination: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, procurement: 1 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 5, coordination: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 2, coordination: 2 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { infrastructure: 5, digital: 3, coordination: 3 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 4, procurement: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { infrastructure: 3, medical: 2, coordination: 2 },
+    joint: false,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { buildings: 4, procurement: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  },
+  {
+    req: { digital: 4, quality: 3 },
+    joint: undefined,
+    bids: 0,
+    reason: {}
+  }
+]
+✔ tests/balance-simulation.mjs (6390.944417ms)
+PASS open-bid privacy, success/failure amounts, nonbidders, joint partners, no award, cancellation and restart
+✔ tests/bid-results.mjs (66.503ms)
+PASS all 300 windows, monotonic requirements, six tiers, exact close times and pause/resume
+✔ tests/bid-window.mjs (65.311875ms)
+PASS: host-only 0–10 bot setup, paused bots, zero-level exit, bankruptcy rescue/freeze, independent historical peaks, reset, privacy and 4 full-round simulations. [
+  { revenue: 103, profit: -74.35, growth: 33.89 },
+  { revenue: 81, profit: -77.75, growth: 33.89 },
+  { revenue: 157, profit: -78.76, growth: 33.89 },
+  { revenue: 206, profit: -90.2, growth: 33.89 }
+]
+✔ tests/bots-bankruptcy.mjs (1343.455083ms)
+New model simulation 0 projects 36 revenue 1336 bytes 453265
+New model simulation 1 projects 28 revenue 1033 bytes 403997
+New model simulation 2 projects 32 revenue 1392 bytes 446596
+PASS: sequential onboarding, all-ready gate, refresh/restart, all company profiles, 200 bilingual milestone projects, staged gates, OR paths/experience/net cash/capacity, overhead, interest, pause/end and 3 full bot games.
+✔ tests/company-model.mjs (6327.310708ms)
+PASS all 300 contexts, independent eligibility, order locks, retainage closeout/delay, recurring safety, private selection, credit approval, JV qualifications, persistent workforce effects, WIP risk, funding parity and legacy restart
+PASS end-to-end private best-value award and sealed score confidentiality
+✔ tests/context-review.mjs (71.496042ms)
+PASS: confidential estimates/funds/counts, own estimate only, above-IGE bid accepted, funding review at opening, no budget probing, cancellation secrecy, 50 unique projects
+✔ tests/federal.mjs (78.723417ms)
+PASS balanced reports at every second, both modes, settlement, export and restart: full
+PASS loan principal/fees, accruals, WIP, retention, completion, cost-to-cost comparison, locked budget, termination and denominator guards
+PASS joint bid budgets and allocation, credit setup and draw fees
+✔ tests/financial-reporting.mjs (442.648166ms)
+PASS: insufficient nominal bids blocked, funded losses allowed, latest cash checked at award, concurrent commitments combined, tie eligibility, public projection parity, receipt timing, low-skill quotes and legacy compatibility.
+✔ tests/funding-review.mjs (80.146875ms)
+PASS guarantees: fees, funding relief/parity, restricted advances, JV consent/atomicity, debt accounting, repayment, expiry, bankruptcy and restart
+✔ tests/guarantee.mjs (65.172667ms)
+PASS host-only live details, bid visibility, credential exclusion, player isolation, pause, bankruptcy and restart
+✔ tests/host-participants.mjs (70.348459ms)
+PASS: UI/API text coverage, 50 project names, units, protected company names, and independent display of shared game state.
+✔ tests/i18n.mjs (269.415875ms)
+PASS information support: isolation, monthly/partial fees, pauses, cancellation, end, bankruptcy, restart, authorization and funding parity
+✔ tests/information-support.mjs (84.022834ms)
+{"companies":2,"completed":12,"bonds":10,"bankDefaults":0,"bankCash":591.44,"suretyCash":604.16}
+{"companies":6,"completed":16,"bonds":14,"bankDefaults":0,"bankCash":573.01,"suretyCash":605.53}
+{"companies":12,"completed":22,"bonds":17,"bankDefaults":0,"bankCash":546.92,"suretyCash":606.1}
+PASS new-room 2/6/12-company full rounds: construction + bank + equipment + surety, accounting checked every simulated second.
+✔ tests/institutions-rounds.mjs (6599.884458ms)
+Institution checks passed: ownership, stale transactions, liens, purchases, depreciation, maintenance, interest, default, surety claim/recourse, serialization and full-round accounting.
+✔ tests/institutions.mjs (119.779542ms)
+PASS: 300 bilingual projects, 100 cross-specialty, consent/privacy, partner funding, split penny conservation, one progress clock, termination, focused growth and absolute peak scores.
+✔ tests/joint-bids.mjs (157.921791ms)
+PASS 30/35/35 across all five sectors, stage boundaries, complexity-based windows, no repeats and stage-2 award with entry-level partners
+✔ tests/joint-stages.mjs (71.152833ms)
+PASS: 100 bilingual specialist events, random clock, 2–5 unique-track batches, randomized expiry, pause/idempotency, real milestone cost, receipt delay locking, work speed, confidentiality, exact stage weights, unrestricted manual counts, cutoff and restart.
+✔ tests/market-news.mjs (78.327666ms)
+PASS: all 50 schedules, penny conservation, delayed receipts, duplicate ticks, funding holds/resume, privacy, distinct ranks, loan resistance, pause and legacy mode.
+✔ tests/milestones.mjs (108.611292ms)
+PASS five languages: financial terms, idempotence, protected names, both modes and unchanged shared state
+✔ tests/multilingual.mjs (113.351ms)
+{"run":0,"events":100,"batches":29,"first":45,"last":1057,"intervals":[46,28,44,43,49]}
+{"run":1,"events":100,"batches":32,"first":25,"last":1170,"intervals":[48,48,33,32,40]}
+{"run":2,"events":100,"batches":28,"first":44,"last":1059,"intervals":[47,26,40,27,43]}
+{"run":3,"events":100,"batches":32,"first":30,"last":1117,"intervals":[31,48,25,32,39]}
+{"run":4,"events":100,"batches":28,"first":43,"last":1063,"intervals":[27,34,44,31,44]}
+PASS random intervals/counts/durations, exhaustion, migration, pause and stacking caps
+✔ tests/news-randomness.mjs (80.591167ms)
+PASS: separate 8 points/160 cash, refunds/caps/privacy, both all-ready and timeout paths, exact five-second transitions, catch-up, plan locks, bots, debrief and restart.
+✔ tests/preparation.mjs (68.44325ms)
+PASS: 15/18/20-minute stage boundaries, no early locked projects, automatic/manual exhaustion, unlock resumption, unchanged requirements, 50 unique projects and legacy behavior. [ 25, 9, 16 ]
+✔ tests/release-phases.mjs (123.618334ms)
+Restart: host-only, reset, credentials, stale actions, and repeated natural-end restart passed.
+✔ tests/restart.mjs (112.88025ms)
+PASS: exit cannot recover peak scores; identical cutoff losses; no phantom exit revenue; retained advance debt; equal profile value; supply through every duration/player count; mixed owner contexts; newcomer access; capped experience advantage; host-only locked optional modules and charged automated routines.
+✔ tests/review-round-three.mjs (58.5295ms)
+PASS: two specialization slots including training; distinct project paths; review privacy/restart/freeze, plan history, exact cash ledger, 600 equal-price draws. First company wins: 305 {
+  digital: 3,
+  industrial: 5,
+  medical: 4,
+  infrastructure: 8,
+  buildings: 5
+}
+✔ tests/specialization-review.mjs (502.123375ms)
+PASS: 3–5 projects per wave, random offsets, simultaneous pairs, cutoff, no repeats, pause and reset.
+✔ tests/staggered-waves.mjs (309.852459ms)
+PASS: shared 120-second phase, no early spending, automatic transition, scheduling/editing/reserves/pause, privacy, entry checks at bid and award, preventable risks, insurance and six-dimension growth.
+✔ tests/strategy-risk.mjs (64.856208ms)
+PASS both modes: shared identity/cash, per-member guide, readiness, stale-action rejection, private credentials, late join and restart
+✔ tests/team-play.mjs (56.213042ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 33880.468833

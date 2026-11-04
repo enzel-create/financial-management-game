@@ -1,0 +1,2 @@
+export const LANGUAGES = [['zh', '中文'], ['en', 'English'], ['es', 'Español'], ['fr', 'Français'], ['hi', 'हिन्दी']];
+export default function LanguagePicker({ language, onChange }: any) { const labels: any = { zh: '语言', en: 'Language', es: 'Idioma', fr: 'Langue', hi: 'भाषा' }; return <label className="theme-picker">{labels[language] || 'Language'}<select aria-label="Language / 语言" value={language} onChange={e => onChange(e.target.value)}>{LANGUAGES.map(([id, name]) => <option key={id} value={id} lang={id === 'zh' ? 'zh-CN' : id}>{name}</option>)}</select></label>; }
