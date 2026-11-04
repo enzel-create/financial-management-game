@@ -34,3 +34,11 @@ No GitHub publication is implied by these local checks. The final GitHub commit 
 ## Final product presentation
 
 The release removes the objective/module selector, course references, sector reference tables, revenue-method lesson, discussion questions and lesson-style debrief. Financial tools and operating history remain. The final targeted scope tests and TypeScript/build checks passed after this cleanup.
+
+## Team roles and lobby update (2026-11-03)
+
+33 test files passed, including 1–4 member role layouts, role reassignment, backend permission checks, independent approvals, stale revisions, expired requests, single-execution accounting and opening resources of 160 cash / 8 free points for every company size. Existing 2/6/12-company institution round simulations remain green. TypeScript checking passed.
+
+Real loopback HTTP/D1 tests cover concurrent final-seat joins, simultaneous approvals, duplicate request IDs, role changes, public/private lobby discovery, safe room summaries and removal when starting. Browser QA confirmed lobby selection fills the join form, four distinct roles, disabled out-of-role bank/equipment buttons, and an operations purchase approved by the general manager with a single 64-unit debit and separate shared-log entries.
+
+The free 8 points are separate from the company design's foundation abilities. The 50 entry-tier project base costs range from 39 to 117, with median 72; new equipment costs 40–64. Starting 160 cash provides working capital without making simultaneous expansion and equipment purchases free of funding tradeoffs. This is a game-balance choice, not a real-world funding estimate.

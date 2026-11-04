@@ -1,3 +1,4 @@
+import { lobbySummary, LOBBY_ACTIVE_MS } from '../../../lib/lobby.mjs';
 import { env } from 'cloudflare:workers';
 import { newRoom, joinCompany, tick, action, view } from '../../../lib/game.mjs';
 import { teamForKey, normalizeCompanyName } from '../../../lib/team-play.mjs';
@@ -15,6 +16,11 @@ export async function POST(req: Request) {
             return json({ error: '请求过长' }, 413);
         const b = JSON.parse(text);
         let token = req.headers.get('authorization')?.replace(/^Bearer /, '') || '';
+        if (b.type === 'lobby') {
+            const now=Date.now();
+            const rows=await env.DB.prepare("SELECT data FROM rooms WHERE created > ? AND json_extract(data,'$.lobbyPublic') = 1 AND json_extract(data,'$.phase') = 'lobby' AND json_extract(data,'$.lobbySeenAt') > ? ORDER BY created DESC LIMIT 50").bind(now-7*86400000,now-LOBBY_ACTIVE_MS).all<{data:string}>();
+            return json({rooms:rows.results.map(row=>{try{return lobbySummary(JSON.parse(row.data),now);}catch{return null;}}).filter(Boolean)});
+        }
         if (b.type === 'create') {
             const mode = b.gameMode ?? 'full';
             if (mode !== 'full')
@@ -25,6 +31,8 @@ export async function POST(req: Request) {
             for (let n = 0; n < 4; n++) {
                 const code = crypto.randomUUID().slice(0, 8).toUpperCase();
                 const r = newRoom(code, host, minutes, mode);
+                r.lobbyPublic = b.lobbyPublic !== false;
+                r.lobbySeenAt = Date.now();
                 const result = await env.DB.prepare('INSERT OR IGNORE INTO rooms (code,data,version,created) VALUES (?,?,0,?)').bind(code, JSON.stringify(r), Date.now()).run();
                 if (result.meta.changes)
                     return json({ token: secret, ...view(r, host) });
@@ -54,6 +62,7 @@ export async function POST(req: Request) {
                 return json({ error: '凭证无效，请使用原浏览器或重新加入' }, 403);
             if(r.contextVersion==null && r.classroomVersion){r.contextVersion=r.classroomVersion;for(const p of r.projects)if(p.classroomVersion)p.contextVersion=p.classroomVersion;}
             tick(r);
+            if(r.phase==='lobby' && key===r.host) r.lobbySeenAt=Date.now();
             if (join)
                 joinCompany(r, crypto.randomUUID(), key, name, b.memberName);
             else if (b.type !== 'state') {

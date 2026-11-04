@@ -1,1 +1,5 @@
-PASS real HTTP/D1 (also same-company double-spend race): hidden mode blocked, atomic two-buyer race, idempotent duplicate trade, seller gain, bank authorization, private loans, balanced reports and end lock. Room 8F65C1BA
+PASS real HTTP/D1 (also same-company double-spend race): hidden mode blocked, atomic two-buyer race, idempotent duplicate trade, seller gain, bank authorization, private loans, balanced reports and end lock. Room 39C11060
+
+PASS HTTP/D1: concurrent fourth-seat limit; fixed 160/8 resources; forged role denied; approval race executes once; duplicate assignment idempotent; new roles take effect; balanced reports; private request credentials.
+
+PASS anonymous lobby HTTP/D1: public discovery, private exclusion, safe member counts, host-only visibility and automatic removal on start.

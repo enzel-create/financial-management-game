@@ -10,7 +10,7 @@ tick(r, 1000);
 action(r, 'key-a', { type: 'loan' });
 action(r, 'key-a', { type: 'upgrade', kind: 'cost' });
 action(r, 'host', { type: 'end' });
-assert.throws(() => action(r, 'key-a', { type: 'restart' }), /主持人/);
+assert.throws(() => action(r, 'key-a', { type: 'restart' }), /权限/);
 r.processed = ['previous-request'];
 action(r, 'host', { type: 'restart' });
 assert.equal(r.phase, 'lobby');

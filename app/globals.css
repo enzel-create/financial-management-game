@@ -52,3 +52,7 @@ fieldset{border:1px solid var(--line);border-radius:12px;padding:16px;margin:20p
 
 
 .institutionPanel{margin:20px 0}.institutionGrid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.equipmentGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.equipmentCard{border:1px solid var(--border,#bcc4cc);border-radius:12px;padding:16px;margin-top:12px}.equipmentCard h4{margin:0 0 10px}.equipmentCard .buttonrow{display:flex;gap:8px;flex-wrap:wrap}.institutionPanel input{max-width:160px}@media(max-width:700px){.institutionGrid{grid-template-columns:1fr}}
+
+.team-role-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.company-team details{margin-top:16px}.company-team summary{cursor:pointer;font-weight:700}.team-activity{max-height:240px;overflow:auto}.team-activity>div{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid #ffffff20}.team-activity time{min-width:45px;font-variant-numeric:tabular-nums}.company-team select{width:100%}
+
+.lobby-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:14px}.lobby-companies{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.lobby-selected{outline:2px solid var(--accent,#9fd0af)}.room-lobby{margin-bottom:24px}

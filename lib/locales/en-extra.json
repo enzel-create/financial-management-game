@@ -862,5 +862,22 @@
   "时长应为15、18或20分钟 / Choose 15, 18 or 20 minutes": "Choose 15, 18 or 20 minutes",
   "This room is not available in the public game / 该房间不属于公开版本": "This room is not available in the public game",
   "队友已更新公司，请刷新页面后重试 / Refresh to load the shared company state": "Refresh to load the shared company state",
-  "Language / 语言": "Language"
+  "Language / 语言": "Language",
+  "比赛已进入新一局": "A new round has started",
+  "本局已结束，无法修改公司": "The round has ended; company changes are locked",
+  "无效的审批决定": "Invalid approval decision",
+  "申请人已离开": "The requester has left",
+  "每家公司最多4人，请使用原设备恢复身份 / Maximum 4 members per company; reuse your original device": "Maximum 4 members per company; reuse your original device",
+  "无效的职位或成员 / Invalid role or member": "Invalid role or member",
+  "多人公司总经理与财务须由不同成员担任 / General and finance must be separate members": "General and finance must be separate members",
+  "每位成员至少保留一个职位，请交换职位 / Every member needs a role; swap roles instead": "Every member needs a role; swap roles instead",
+  "审批额度应为10至1000000 / Invalid threshold": "Invalid threshold",
+  "申请已处理或不存在 / Request unavailable": "Request unavailable",
+  "仅申请人可取消 / Only requester can cancel": "Only requester can cancel",
+  "需要另一位总经理或财务审批 / Another general or finance manager must approve": "Another general or finance manager must approve",
+  "申请已过期，请重新申请 / Request expired": "Request expired",
+  "最多8项待审批操作 / Maximum 8 pending requests": "Maximum 8 pending requests",
+  "已有相同申请待审批 / Duplicate pending request": "Duplicate pending request",
+  "当前职位无此操作权限 / Your role cannot perform this action": "Your role cannot perform this action",
+  "仅主持人可在开局前修改大厅展示 / Only the host may change lobby visibility before starting": "Only the host may change lobby visibility before starting"
 }
